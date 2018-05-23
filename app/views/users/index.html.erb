@@ -1,8 +1,8 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Users</h1>
-
-<table>
+<div class="container">
+<table class="table table-bordered">
   <thead>
     <tr>
       <th>Name</th>
@@ -23,7 +23,8 @@
     <% end %>
   </tbody>
 </table>
+<%= link_to 'New User', new_user_path %>  |    <%= link_to 'New Post', new_micropost_path %>   </div>
 
 <br>
 
-<%= link_to 'New User', new_user_path %>
+
